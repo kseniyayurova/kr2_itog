@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+   <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Страница 5</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+  <ul>
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="page1.html">Страница 1</a></li>
+    <li><a href="page2.html">Страница 2</a></li>
+    <li><a href="page3.html">Страница 3</a></li>
+    <li><a href="page3.html#section1">Раздел 1 на Странице 3</a></li>
+    <li><a href="page4.html">Страница 4</a></li>
+    <li><a href="page5.html">Страница 5</a></li>
+     <li><a href="page7.html">Страница 5*</a></li>
+  </ul>
+</nav>
+
+  <main>
+    <div class="container mt-4">
+      <h3 class="text-center">Магазин котят</h3>
+      <p class="text-center">Выберите себе лучшего друга на всю жизнь!</p>
+
+      <div class="row">
+        <!-- Карточка 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/сноу-шу.jpg" class="card-img-top medium-image" alt="Сноу-шу">
+            <div class="card-body">
+              <h5 class="card-title">Сноу-шу</h5>
+              <label for="kitten_age_1"> Количество:</label>
+              <input type="number" id="kitten_age_1" class="form-control w-50" name="kitten_age" value="0" min="1" max="12" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Карточка 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/той-бобтейл.jpg" class="card-img-top medium-image" alt="Той-бобтейл">
+            <div class="card-body">
+              <h5 class="card-title">Той-бобтейл</h5>
+              <label for="kitten_age_2"> Количество:</label>
+              <input type="number" id="kitten_age_2" class="form-control w-50" name="kitten_age" value="0" min="1" max="12" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Карточка 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/шоколадный_йорк.jpg" class="card-img-top medium-image" alt="Шоколадный йорк">
+            <div class="card-body">
+              <h5 class="card-title">Шоколадный йорк</h5>
+              <label for="kitten_age_3"> Количество:</label>
+              <input type="number" id="kitten_age_3" class="form-control w-50" name="kitten_age" value="0" min="1" max="12" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Карточка 4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/петерболд.jpg" class="card-img-top medium-image" alt="Петерболд">
+            <div class="card-body">
+              <h5 class="card-title">Петерболд</h5>
+              <label for="kitten_age_4"> Количество:</label>
+              <input type="number" id="kitten_age_4" class="form-control w-50" name="kitten_age" value="0" min="1" max="12" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Карточка 5 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/богемский_рекс.jpg" class="card-img-top medium-image" alt="Богемский рекс">
+            <div class="card-body">
+              <h5 class="card-title">Богемский рекс</h5>
+              <label for="kitten_age_5"> Количество:</label>
+              <input type="number" id="kitten_age_5" class="form-control w-50" name="kitten_age" value="0" min="1" max="12" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Карточка 6 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="images/американская_многолапая_кошка.jpg" class="card-img-top medium-image" alt="Американская многолапая кошка">
+            <div class="card-body">
+              <h5 class="card-title">Американская многолапая кошка</h5>
+              <label for="kitten_age_6"> Количество:</label>
+              <input type="number" id="kitten_age_6" class="form-control w-50" name="kitten_age" value="0" min="1" max="12" required>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank" class="text-center">
+        <p><input type="hidden"  name="q" value="search"></p>
+        <input class="btn btn-primary" type="submit" value="В корзину">
+       </form>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
