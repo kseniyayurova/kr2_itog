@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи</title>
+</head>
+<body>
+
+    <h3 align="center">Решение алгоритмической задачи</h3>
+    <p id="task_content">Принадлежит ли целое C диапазону A-B?</p>
+
+    <!-- Поля ввода для значений A и B -->
+    <label for="a_input">Введите значение A:</label>
+    <input type="number" id="a_input" value="22">
+
+    <label for="b_input">Введите значение B:</label>
+    <input type="number" id="b_input" value="20">
+
+    <!-- Поле ввода для значения C -->
+    <label for="c_input">Введите значение C:</label>
+    <input type="number" id="c_input" value="33">
+
+    <p><button id="verify_button">Оценить</button></p>
+
+    <p>Результат: <span id="result"></span></p>
+
+</body>
+
+<script>
+    document.getElementById('verify_button').addEventListener('click', function() {
+        // Получение значений A, B и C из полей ввода
+        let a = parseInt(document.getElementById('a_input').value);
+        let b = parseInt(document.getElementById('b_input').value);
+        let c = parseInt(document.getElementById('c_input').value);
+
+        // Проверка на корректность введенных значений
+        if (isNaN(a) || isNaN(b) || isNaN(c)) {
+            document.getElementById('result').textContent = 'Пожалуйста, введите корректные числовые значения для A, B и C.';
+            return;
+        }
+
+        // Определение минимального и максимального значений
+        let min = Math.min(a, b);
+        let max = Math.max(a, b);
+
+
+
+        // Проверка принадлежности C диапазону A-B
+        //let resultText = (c >= a + b) ?
+
+        if ( c >= a + b ): 
+
+
+        document.getElementById('result').textContent = resultText;
+    });
+</script>
+</html>
